@@ -168,7 +168,7 @@ function Profile({navigation}){
               </TouchableWithoutFeedback>
               
               <TouchableWithoutFeedback onPress={selectSeries} >
-              <Text style={styles.unselected_text} >Favorites Series</Text>
+              <Text style={styles.unselected_text} >Favorite Series</Text>
               </TouchableWithoutFeedback>
               </View>
             </View>
@@ -215,7 +215,7 @@ function Profile({navigation}){
               </TouchableWithoutFeedback>
                 
                 <TouchableWithoutFeedback onPress={selectSeries}   >
-              <Text style={styles.unselected_text} >Favorites Series</Text>
+              <Text style={styles.unselected_text} >Favorite Series</Text>
               </TouchableWithoutFeedback>
               
               </View>
@@ -262,7 +262,7 @@ function Profile({navigation}){
               
               <TouchableWithoutFeedback onPress={selectSeries}  >
               <View style={styles.selected_touch}>
-              <Text style={styles.selected_text} >Favorites Series</Text>
+              <Text style={styles.selected_text} >Favorite Series</Text>
               </View>
               </TouchableWithoutFeedback>
               </View>
