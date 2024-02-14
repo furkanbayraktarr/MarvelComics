@@ -156,7 +156,7 @@ const handleSelectRepeatKey=()=>{
       <View style={styles.login_container} >
         <Text style={styles.login_text_1} >Already have an account?</Text>
         <TouchableOpacity onPress={onSelect} >
-        <Text style={styles.login_text_2} > Log in</Text>
+        <Text style={styles.login_text_2} > Log In</Text>
         </TouchableOpacity>
       </View>
       </View>
