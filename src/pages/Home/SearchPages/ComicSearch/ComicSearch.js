@@ -3,15 +3,13 @@ import Input from "../../../../components/Input"
 import ItemCard from "../../../../components/Card/ItemCard"
 import styles from "./ComicSearch.style"
 import colors from "../../../../styles/colors"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Icon from "react-native-vector-icons/MaterialCommunityIcons"
 
 function ComicSearch({route,navigation}){
 
     const itemList = route.params.itemList
     const [searchedList, setSearchedList] = useState([])
-
-    useEffect(()=>{console.log("items:",itemList)},[])
 
     const handleSearch=(text)=>{
         if(text){
